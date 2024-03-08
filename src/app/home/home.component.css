@@ -1,0 +1,119 @@
+.SubTitle {
+    margin-left:  30px;
+    font-size: 40px;
+    margin-top: 16rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ByeImage {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-bottom: -5px;
+}
+video {
+    width: 80%;
+    height: auto;
+    margin-left: 8.5rem;
+    margin-top: 17rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(136, 132, 132, 0.685);
+}
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+}
+.figma{
+   width: 120px;
+   height: auto;
+   margin-left: 80px;
+}
+.angular {
+    width: 120px;
+    height: auto;
+    margin-left: 80px;
+}
+.react {
+    width: 120px;
+    height: auto;
+    margin-left: 80px;
+}
+.node {
+    width: 120px;
+    height: auto;
+    margin-left: 80px;
+}
+.express {
+    width: 120px;
+    height: auto;
+}
+.insta {
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 9px;
+}
+.underline {
+    width: 323px;
+    height: 5px;
+    background-color: #0189FF;
+    margin-top: -9px;
+    margin-left: 29.7rem;
+    margin-bottom: 25px;
+}
+.skill {
+    width: 89.6%;
+    height: 64vh;
+    background-color: #0189FF;
+    margin-top: 60px;
+    padding: 70px;
+}
+.Skill-image {
+    margin-left: 63%;
+    margin-top: -18%;
+}
+.Eduction {
+    margin-top: -29.9%;
+    margin-left: 30%;
+}
+.linkdn {
+    width: 19px;
+    height: 19px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+.github {
+    width: 50px;
+    height: 50px;
+    margin-top: 133px;
+    margin-left: 1px;
+}
+.telegram {
+    width: 45px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+.describtion {
+    display: flex;
+}
+.SubTitle {
+    margin-left: 40px;
+}
+button {
+    background: #0189FF;
+    padding:13px 20px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.social_media_contact {
+    margin-top: 8rem;
+    margin-left: 50px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #0188ff86;
+}
