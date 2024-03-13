@@ -18,4 +18,12 @@ export class HomeComponent {
      nodePath : string = './assets/node.png'
      expressPath : string = './assets/Express_logo.png'
      skillPath : string = './assets/Skill.png'
+     illustration : string = './assets/illustration.png'
+     stand : string = './assets/Stand.png'
+     abraham : string = './assets/Abraham.png'
+     star : string = './assets/Star.png'
+     zan : string = './assets/zan.png'
+     Footer : string = './assets/Footer.png'
+     upwork : string = './assets/upwork.png'
+     email : string = './assets/email.png'
 }

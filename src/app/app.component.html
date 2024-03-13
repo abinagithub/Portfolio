@@ -1,2 +1,2 @@
-<app-header></app-header>
-<app-home></app-home>
+<app-home *ngIf="isDesktopView"></app-home>
+<app-mobile-view *ngIf="!isDesktopView"></app-mobile-view>
