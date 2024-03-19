@@ -1,8 +1,51 @@
+.Header { 
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+.Title {
+    font-size: 30px;
+    margin-left: 70px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+nav ul {
+    margin-left: 33rem;
+    margin-top: -43px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 57px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    cursor:grab;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: #0189FF;  
+}
+button {
+    background: #0189FF;
+    padding:9px 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #0188ff86;
+}
 .SubTitle {
     margin-left:  30px;
     font-size: 40px;
-    margin-top: 16rem;
-    font-family: 'Times New Roman', Times, serif;
+    margin-top: 14rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "Castoro", serif;
 }
 .ByeImage {
     width: 40px;
@@ -65,7 +108,7 @@ video {
     width: 35px;
     height: 35px;
     margin-top: 20px;
-    margin-left: 9px;
+    margin-left: 29px;
 }
 .underline {
     width: 323px;
@@ -99,6 +142,7 @@ video {
     background-color: white;
     margin-top: 100px;
     margin-left: 50px;
+    border: 0.5px solid #1a5da091;
     box-shadow: -5px 0px 10px #0189FF;
 }
 .Photo {
@@ -121,13 +165,14 @@ video {
     background-color: #0189FF;
     margin-top: 60px;
     padding: 70px;
+    box-shadow: 0 6px 6px #6d6d6db2;
 }
 .review-box {
     display: flex;
     margin-top: -19px;
     margin-left: 50px;
 }
-.Subscribe {
+#Subscribe {
     width: 40rem;   
     height: 5rem;   
     background-color: #f5f5f5; 
@@ -136,8 +181,9 @@ video {
     margin-top: -340px;
     border: 1px solid #0189FF;
     display: flex;
+    box-shadow: 0 0 9.7px #fff;
 }
-.Title {
+.name {
     margin-top: 30px;
     margin-left: 70px;
     font-size: 30px;
@@ -145,7 +191,7 @@ video {
 .footer {
     width: auto;
     height: 300px;
-    background-color: #0189FF;
+    background-color: #101010;
     margin-top: 200px;
 }
 .Skill-image {
@@ -163,19 +209,19 @@ video {
     width: 19px;
     height: 19px;
     margin-top: 20px;
-    margin-left: 17px;
+    margin-left: 37px;
 }
 .github {
     width: 50px;
     height: 50px;
-    margin-top: 133px;
-    margin-left: 1px;
+    margin-top: 103px;
+    margin-left: 20px;
 }
 .telegram {
     width: 45px;
     height: 45px;
     margin-top: 20px;
-    margin-left: 4px;
+    margin-left: 24px;
 }
 .input {
     width: 28rem;
@@ -189,16 +235,6 @@ video {
 }
 .SubTitle {
     margin-left: 40px;
-}
-button {
-    background: #0189FF;
-    padding:13px 20px;
-    border: 2px solid transparent;
-    border-radius: 7px;
-    color: white;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-top: 10px;
 }
 .social_media_contact {
     margin-top: 8rem;
@@ -239,7 +275,6 @@ a {
     text-decoration: none;
     color: white;
     margin-top: 22px;
-    margin-left: 20px;
 }
 .Contact-me {
   display: flex;
