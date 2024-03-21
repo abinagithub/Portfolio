@@ -13,10 +13,23 @@ import { RouterLinkActive } from '@angular/router';
 })
 export class AppComponent {
   title = 'Portfolio';
-  isDesktopView: boolean = window.innerWidth > 768; // Adjust breakpoint as needed
 
-  @HostListener('window:resize', ['$event'])
-  onResize(event: any) {
-    this.isDesktopView = event.target.innerWidth > 768; // Adjust breakpoint as needed
+  isMobile: boolean = false; // Initialize isMobile to false
+
+  constructor() {
+    // Check initially when the component is loaded
+    this.checkScreenSize();
   }
+
+  @HostListener('window:resize')
+  onResize() {
+    // Call the checkScreenSize function whenever the window is resized
+    this.checkScreenSize();
+  }
+
+  private checkScreenSize() {
+    // Determine if the screen size is mobile or desktop
+    this.isMobile = window.innerWidth <= 768;
+  }
+
 }

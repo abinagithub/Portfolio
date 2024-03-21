@@ -1,0 +1,47 @@
+.Header { 
+    background-color: white;
+    width: 100%;
+    position: fixed;
+}
+.Title {
+    font-size: 30px;
+    margin-left: 70px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+nav ul {
+    margin-left: 33rem;
+    margin-top: -43px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 57px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    cursor:grab;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: #0189FF;  
+}
+button {
+    background: #0189FF;
+    padding:9px 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #0188ff86;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 22px;
+}

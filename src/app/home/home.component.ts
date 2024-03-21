@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -28,4 +28,22 @@ export class HomeComponent {
      email : string = './assets/Img/email.png'
      github_new : string = './assets/Img/github-new.jpg'
      bereket : string = './assets/Img/Bereket-pic 1.png'
+   
+     isMobile: boolean = false; // Initialize isMobile to false
+
+     constructor() {
+       // Check initially when the component is loaded
+       this.checkScreenSize();
+     }
+   
+     @HostListener('window:resize')
+     onResize() {
+       // Call the checkScreenSize function whenever the window is resized
+       this.checkScreenSize();
+     }
+   
+     private checkScreenSize() {
+       // Determine if the screen size is mobile or desktop
+       this.isMobile = window.innerWidth <= 768;
+     }
 }

@@ -1,5 +1,4 @@
+<ng-container *ngIf="!isMobile"><app-header></app-header></ng-container>
+<ng-container *ngIf="isMobile"><app-mobile-header></app-mobile-header></ng-container>
+
 <router-outlet></router-outlet>
-<!-- <app-home *ngIf="isDesktopView"></app-home> -->
-<!-- <app-privous-work></app-privous-work> -->
-<!-- <app-mobile-view *ngIf="!isDesktopView"></app-mobile-view> -->
-    

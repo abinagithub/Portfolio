@@ -1,33 +1,11 @@
-.Header { 
-    background-color: white;
-    width: 100%;
-    position: fixed;
-}
-.Title {
-    font-size: 30px;
-    margin-left: 70px;
-    font-family:'Times New Roman', Times, serif;
-    margin-top: 20px;
-}
-nav ul {
-    margin-left: 33rem;
-    margin-top: -43px;
-}
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 20px 57px;
-}
-nav ul li a{
-    color: black;
-    text-decoration: none;
-    font-family:'Times New Roman', Times, serif;
-    cursor:grab;
-    font-size: 17px;
-}
-nav ul li a:hover{
-    color: #0189FF;  
-}
+@media screen and (max-width: 767px) {
+    .show-on-mobile {
+      display: block;
+    }
+    .hide-on-mobile {
+      display: none;
+    }
+} 
 button {
     background: #0189FF;
     padding:9px 20px;
@@ -42,9 +20,8 @@ button:hover{
 }
 .SubTitle {
     margin-left:  30px;
-    font-size: 40px;
-    margin-top: 14rem;
-    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 35px;
+    margin-top: 15rem;
     font-family: "Castoro", serif;
 }
 .ByeImage {
@@ -214,7 +191,7 @@ video {
 .github {
     width: 50px;
     height: 50px;
-    margin-top: 103px;
+    margin-top: 120px;
     margin-left: 20px;
 }
 .telegram {
@@ -232,9 +209,6 @@ video {
 }
 .describtion {
     display: flex;
-}
-.SubTitle {
-    margin-left: 40px;
 }
 .social_media_contact {
     margin-top: 8rem;
