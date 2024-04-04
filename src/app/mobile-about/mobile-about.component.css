@@ -1,0 +1,229 @@
+
+.github-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+}
+.telegram-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.instagram-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.linkdn-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 22px;
+}
+.text {
+    font-family: "Truculenta", sans-serif;
+}
+
+
+
+@media screen and (max-width: 375px) { 
+.desc_text {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 25px;
+        width: 19rem;
+    }
+.title {
+    font-size: 28px;
+    margin-top: -40px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+.mob_footer {
+    width: auto;
+    height: 390px;
+    background-color: #101010;
+    margin-top: 150px;
+}
+.mob_Subscribe {
+    width: 300px;  
+    height: 80px;   
+    background-color: #f5f5f5; 
+    margin-left: 34px;    
+    border-radius: 20px;
+    margin-top: -24rem;  
+    border: 1px solid #0189FF;
+    display: flex;
+    box-shadow: 0 0 9.7px #fff; 
+}
+.mob_input {
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 15px;   
+    border: none;
+}
+.mob_name {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.mob_social {
+    margin-top: 10px;
+}
+.mob_github-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+.mob_element {
+    margin-top: -27rem;
+}
+.github-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+}
+.telegram-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.instagram-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.linkdn-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.footer_description {
+    font-size: 13px;
+    width: 15rem;
+    margin-left: 30px;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.726); 
+}
+.mob_upwork_title {
+    font-size: 13px;
+    color: white;
+    margin-left: 260px;
+    margin-top: -139px;
+    font-weight: bold;
+}
+.Contact-me {
+    display: flex;
+    margin-left: 10px;
+}
+.footer_blank {
+    width: 8rem;
+    height: 0.4px;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-top: 100px;
+    margin-left: 125px;
+    border-radius: 3px;
+}
+.footer_copyright {
+    margin-left: 83px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 12px; 
+}
+}
+
+
+
+@media screen and (min-width: 365px) {
+.desc_text {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-left: 25px;
+        width: 23rem;
+    }
+    .title {
+        font-size: 28px;
+        margin-top: -40px;
+        margin-left: 100px;
+        font-weight: bold;
+    }
+    .mob_footer {
+        width: auto;
+        height: 400px;
+        background-color: #101010;
+        margin-top: 150px;
+    }
+    .mob_Subscribe {
+        width: 340px;  
+        height: 80px;   
+        background-color: #f5f5f5; 
+        margin-left: 34px;    
+        border-radius: 20px;
+        margin-top: -24rem;  
+        border: 1px solid #0189FF;
+        display: flex;
+        box-shadow: 0 0 9.7px #fff; 
+    }
+    .mob_input {
+        width: 187px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-left: 15px;   
+        border: none;
+    }
+    .mob_name {
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .mob_social {
+        margin-top: 10px;
+    }
+    .mob_github-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 30px;
+    }
+    .footer_description {
+        font-size: 15px;
+        width: 15rem;
+        margin-left: 30px;
+        margin-top: 8px;
+        color: rgba(255, 255, 255, 0.726); 
+    }
+    .mob_upwork_title {
+        font-size: 18px;
+        color: white;
+        margin-left: 252px;
+        margin-top: -149px;
+        font-weight: bold;
+    }
+    .Contact-me {
+        display: flex;
+        margin-left: 20px;
+    }
+    .footer_blank {
+        width: 11rem;
+        height: 0.4px;
+        background-color: rgba(255, 255, 255, 0.733);
+        margin-top: 110px;
+        margin-left: 120px;
+        border-radius: 3px;
+    }
+    .footer_copyright {
+        margin-left: 85px;
+        margin-top: 10px;
+        color: rgba(255, 255, 255, 0.61);
+        font-size: 15px; 
+    }
+    .mob_element {
+        margin-top: -27.5rem;
+    }  
+}

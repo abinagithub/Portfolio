@@ -6,12 +6,12 @@ import { Component,HostListener } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+     video : string = './assets/video/Figma_design.mp4' 
      ByeImage : string = './assets/Img/bye.jpg'
      instaImage : string = './assets/Img/Insta-removebg-preview.png'
      linkdnImage : string = './assets/Img/linkdin 1.png'
      githubImage : string = './assets/Img/github.png'
      telegramImage : string = './assets/Img/telegram_icon-removebg-preview.png'
-     videoPath : string = './assets/video/Figma_design.mp4' 
      figmaPath : string = './assets/Img/Figma_logo.png'
      angularPath : string = './assets/Img/Angular_logo.png'
      reactPath : string = './assets/Img/React.png'

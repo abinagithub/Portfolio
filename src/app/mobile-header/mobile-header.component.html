@@ -1,0 +1,19 @@
+<div class="container">
+   <div class="border">
+      <!-- Home link -->
+      <div class="home" [ngClass]="{'mobile-active': homeTabIndex === 0, 'null-mobile-active': homeTabIndex === -1}" (click)="toggleTabIndex('home')">
+         <a [tabindex]="homeTabIndex" routerLink=""><img [src]="home_icon" alt="" class="home_icon"></a>
+         <p><a [tabindex]="homeTabIndex" routerLink="/">Home</a></p>
+      </div>
+      <!-- Project link -->
+      <div class="previous-work" [ngClass]="{'mobile-active': projectTabIndex === 0, 'null-mobile-active': projectTabIndex === -1}" (click)="toggleTabIndex('privous')">
+         <a [tabindex]="projectTabIndex" routerLink="/mob_privous"><img [src]="work_icon" alt="" class="work_icon"></a>
+         <p class="link"><a [tabindex]="projectTabIndex" routerLink="/mob_privous">Project</a></p>
+      </div>
+      <!-- AboutMe link -->
+      <div class="about" [ngClass]="{'mobile-active': aboutTabIndex === 0, 'null-mobile-active': aboutTabIndex === -1}" (click)="toggleTabIndex('about')">
+         <a [tabindex]="aboutTabIndex" routerLink="/mob_about"><img [src]="profile_icon" alt="" class="profile_icon"></a>
+         <p class="link"><a [tabindex]="aboutTabIndex" routerLink="/mob_about">AboutMe</a></p>
+      </div>
+      </div>
+</div>

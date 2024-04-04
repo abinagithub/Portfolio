@@ -16,6 +16,7 @@ export class PrivousWorkComponent {
   img1 : string = './assets/Img/img-1.png'
   img2 : string = './assets/Img/img-2.png'
   img3 : string = './assets/Img/img-3.png'
+  img4 : string = './assets/Img/img4.png'
   project : string = './assets/video/project.mp4'
   figma : string = './assets/video/figma.mp4'
 }

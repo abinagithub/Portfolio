@@ -6,6 +6,14 @@
       display: none;
     }
 } 
+@media screen and (min-width: 767px) {
+    .show-on-mobile {
+      display: none;
+    }
+    .hide-on-mobile {
+      display: block;
+    }  
+}
 button {
     background: #0189FF;
     padding:9px 20px;
@@ -18,10 +26,24 @@ button:hover{
     cursor: pointer;
     background-color: #0188ff86;
 }
+.btn {
+    background: #0189FF;
+    padding:15px 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    width: 90px;
+    margin-top: 12px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #0188ff86;
+}
 .SubTitle {
     margin-left:  30px;
-    font-size: 35px;
-    margin-top: 15rem;
+    font-size: 42px;
+    margin-top: 18rem;
     font-family: "Castoro", serif;
 }
 .ByeImage {
@@ -30,6 +52,7 @@ button:hover{
     margin-left: 10px;
     margin-bottom: -5px;
 }
+
 .illustration {
     display: flex;
 }
@@ -37,7 +60,7 @@ button:hover{
     width: 30rem;
     height: 30rem;
     margin-top: 140px;
-    margin-left: 140px;
+    margin-left: 20.5rem;
 }
 .stand {
     width: auto;
@@ -46,9 +69,9 @@ button:hover{
     margin-top: 14rem;
 }
 video {
-    width: 80%;
+    width: 70rem;
     height: auto;
-    margin-left: 8.5rem;
+    margin-left: 21rem;
     margin-top: 17rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(136, 132, 132, 0.685);
@@ -82,40 +105,40 @@ video {
     height: auto;
 }
 .insta {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     margin-top: 20px;
-    margin-left: 29px;
+    margin-left: 25px;
 }
 .underline {
     width: 323px;
     height: 5px;
     background-color: #0189FF;
     margin-top: -9px;
-    margin-left: 29.7rem;
+    margin-left: 46rem;
     margin-bottom: 25px;
     border-radius: 3px;
 }
 .box {
-    width: 18rem;
-    height: 11rem;
+    width: 23rem;
+    height: 13rem;
     background-color: white;
     margin-top: 100px;
-    margin-left: 9rem;
+    margin-left: 15rem;
     border: 0.5px solid #1a5da091;
     box-shadow: 3px 0px 6px #0189FF;
 }
 .box-2 {
-    width: 18rem;
-    height: 11rem;
+    width: 23rem;
+    height: 13rem;
     background-color: #0189FF;
     margin-top: 100px;
     margin-left: 50px;
     box-shadow: 0 6px 6px #a1a3a5;
 }
 .box-3 {
-    width: 18rem;
-    height: 11rem;
+    width: 23rem;
+    height: 13rem;
     background-color: white;
     margin-top: 100px;
     margin-left: 50px;
@@ -149,11 +172,11 @@ video {
     margin-top: -19px;
     margin-left: 50px;
 }
-#Subscribe {
-    width: 40rem;   
+#subscribeSection {
+    width: 42rem;   
     height: 5rem;   
     background-color: #f5f5f5; 
-    margin-left: 21rem;    
+    margin-left: 34rem;    
     border-radius: 20px; 
     margin-top: -340px;
     border: 1px solid #0189FF;
@@ -161,58 +184,80 @@ video {
     box-shadow: 0 0 9.7px #fff;
 }
 .name {
-    margin-top: 30px;
+    margin-top: 70px;
     margin-left: 70px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .footer {
     width: auto;
-    height: 300px;
+    height: 400px;
     background-color: #101010;
     margin-top: 200px;
 }
+.Footer-element {
+    margin-top: -27.5rem;
+}
+.footer_name {
+    margin-left: 50px;
+}
+.footer_link {
+    margin-left: 16rem;
+    margin-top: -10.3rem;
+}
+.footer-contact {
+    margin-left: 20rem;
+    margin-top: -6rem;
+}
+
+
+
+
 .Skill-image {
     width: auto;
     height: 20rem;
-    margin-left: 25rem;
+    margin-left: 38rem;
     margin-top: -14rem;
     margin-bottom: 61px;
 }
+.Work-Experience {
+    margin-left: 50px;
+}
 .Eduction {
     margin-top: -23.85rem;
-    margin-left: 30%;
+    margin-left: 33rem;
 }
 .linkdn {
-    width: 19px;
-    height: 19px;
+    width: 26px;
+    height: 26px;
     margin-top: 20px;
-    margin-left: 37px;
+    margin-left: 35px;
 }
 .github {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin-top: 120px;
     margin-left: 20px;
 }
 .telegram {
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     margin-top: 20px;
-    margin-left: 24px;
+    margin-left: 20px;
 }
 .input {
-    width: 28rem;
+    width: 30rem;
     height: 40px;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 17px;
     padding-left: 15px;   
+    border: none;
 }
 .describtion {
     display: flex;
 }
 .social_media_contact {
-    margin-top: 8rem;
-    margin-left: 50px;
+    margin-top: 11.4rem;
+    margin-left: 75px;
 }
 .github-footer {
     width: 20px;
@@ -241,15 +286,584 @@ video {
  margin-top: -134px;
  margin-left: 37rem;
 }
-button:hover{
+/* button:hover{
     cursor: pointer;
     background-color: #0188ff86;
-}
+} */
 a {
     text-decoration: none;
     color: white;
     margin-top: 22px;
 }
 .Contact-me {
-  display: flex;
+    display: flex;
 }
+
+
+
+
+/* Style Sheet For Mobile App design. */
+
+@media screen and (min-width: 360px) {
+    .mob_experiance_title {
+        font-size: 23px;
+        margin-top: 70px;
+        color: white;
+        margin-left: 8px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .mob_experiance_blank {
+        width: 90px;
+        height: 2px;
+        background-color:#616161ef;
+        margin-left: 53px;
+        margin-top: 7px;
+        margin-bottom: 20px;
+    }
+    .mob_experiance_date {
+        color: rgba(89, 90, 90, 0.808);
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .mob_experiance_filed {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        margin-top: 3px;
+    }
+    .mob_experiance_project {
+        margin-left: 30px;
+        margin-top: 3px; 
+        font-size: 18px;
+    }
+    .Education-Experience_title {
+        font-size: 23px;
+        margin-top: 70px;
+        color: white;
+        letter-spacing: 1px;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    .Education-Experience_blank {
+        width: 70px;
+        height: 2px;
+        background-color: #616161ef;
+        margin-left: 66px;
+        margin-top: 4px;
+    }
+    .Education-Experience_date {
+        color: rgba(89, 90, 90, 0.808);
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .Education-Experience_filed {
+        font-size: 20px;
+        margin-left: 30px;
+        font-weight: 500;
+        color: white;
+        margin-top: 3px;
+    }
+    .Education-Experience_project {
+        margin-left: 30px;
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    .mob_skill {
+        text-align: center;
+    }
+    .mob_skill .expectations {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .mob_skill {
+        padding-top: 15px;
+        width: auto;
+        height: 50rem;
+        background-color: #0189FF;
+        margin-top: 50px;
+    }
+    .mob_video {
+        margin-left: 60px;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(136, 132, 132, 0.685);
+        margin-top: 70px;
+        position: relative;
+        z-index: 1;
+    }
+    .mob_box {
+        width: 22rem;
+        height: 10rem;
+        background-color: white;
+        margin-top: 100px;
+        margin-left: 25px;
+        border: 0.5px solid #1a5da091;
+        box-shadow: 1px 0px 6px #0189FF; 
+        border-radius: 5px;
+    }
+    .mob_box_2 {
+        width: 22rem;
+        height: 10rem;
+        background-color:#0189FF;
+        margin-top: 30px;
+        margin-left: 25px;
+        border: 0.5px solid #1a5da091;
+        box-shadow: 1px 0px 6px #a1a3a5; 
+        border-radius: 5px;
+    }
+    .mob_box_3 {
+         width: 22rem;
+        height: 10rem;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 25px;
+        border: 0.5px solid #1a5da091;
+        box-shadow: 1px 0px 6px #0189FF; 
+        border-radius: 5px;
+    }
+    .sub_description {
+        margin-left: 26px;
+    }
+    .Title {
+        margin-left: 116px;
+        font-size: 25px;
+        color: #898a8a;
+        margin-top: -60px;
+    }
+    .mob_footer {
+        width: auto;
+        height: 400px;
+        background-color: #101010;
+        margin-top: 150px;
+    }
+    .mob_Subscribe {
+        width: 340px;  
+        height: 80px;   
+        background-color: #f5f5f5; 
+        margin-left: 34px;    
+        border-radius: 20px;
+        margin-top: -24rem;  
+        border: 1px solid #0189FF;
+        display: flex;
+        box-shadow: 0 0 9.7px #fff; 
+    }
+    .mob_input {
+        width: 187px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-left: 15px;   
+        border: none;
+    }
+    .mob_name {
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .mob_social {
+        margin-top: 10px;
+    }
+    .mob_github-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 30px;
+    }
+    .footer_description {
+        font-size: 15px;
+        width: 15rem;
+        margin-left: 30px;
+        margin-top: 8px;
+        color: rgba(255, 255, 255, 0.726); 
+    }
+    .mob_upwork_title {
+        font-size: 18px;
+        color: white;
+        margin-left: 255px;
+        margin-top: -149px;
+        font-weight: bold;
+    }
+    .Contact-me {
+        display: flex;
+        margin-left: 20px;
+    }
+    .footer_blank {
+        width: 11rem;
+        height: 0.4px;
+        background-color: rgba(255, 255, 255, 0.733);
+        margin-top: 80px;
+        margin-left: 120px;
+        border-radius: 3px;
+    }
+    .footer_copyright {
+        margin-left: 85px;
+        margin-top: 10px;
+        color: rgba(255, 255, 255, 0.61);
+        font-size: 15px; 
+    }
+}
+
+.Animation-text {
+    color: black;
+    margin-left: 15px;
+}
+.Text-animation {
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 10.5px;
+}
+.animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 10px;
+  }
+  
+  .animation > div > div  {
+    padding: 10px 8px;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+    border-radius: 5px;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 14s infinite;
+  }
+  
+  .first div {
+    background-color:#0189FF;
+  }
+  .second div {
+    background-color: #0189FF;
+  }
+  .third div {
+    background-color:#0189FF;
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.74rem;}
+    60% {margin-top: -11.74rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+  }
+  
+.Mob_description {
+    color: rgb(164, 165, 165);
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.mob_button {
+    background: #0189FF;
+    padding:8px 9px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    width: 60px;
+    margin-top: 14px;
+    margin-left: 140px;
+    font-weight: bold;
+}
+.mob_button:hover{
+    cursor: pointer;
+    background-color: #0188ff86;
+}
+.profile_pic {
+    margin-top: 400px;
+}
+.mob_express {
+    width: 100px;
+    height: auto;
+}
+.mob_node {
+    width: 100px;
+    height: auto;
+    margin-left: 80px;
+}
+.mob_react {
+    width: 100px;
+    height: auto;
+    margin-left: 80px;
+}
+.mob_angular {
+    width: 100px;
+    height: auto;
+    margin-left: 80px;
+}
+.mob_figma {
+    width: 100px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.mob-skill-header {
+    margin-left: 10px;
+    color: white;
+    font-weight: lighter;
+}
+.mob-skill-sub {
+    font-size: 18px;
+    margin-left: 13px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white; 
+}
+.mob-skill-descrition {
+    color: rgba(65, 65, 64, 0.808);
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+
+
+
+
+
+
+
+
+.mob_element {
+    margin-top: -27.5rem;
+}   
+.mob_skill-image {
+    width: auto;
+    height: 13rem;
+    margin-left: 4px;
+    margin-top: 70px;
+}
+
+.mob_illustration {
+    margin-top: 40px;
+}
+.mob_illustrationImage {
+    width: auto;
+    height: 8rem;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.mob_stand {
+    width: auto;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+@media screen and (max-width: 375px) {
+    .mob_skill {
+        margin-left: 0px;
+    }
+    .mob_skill .expectations {
+      flex-direction: column;
+      align-items: center;
+    }
+    .mob_skill .mob_experiance,
+    .mob_skill .Education-Experience {
+      max-width: 100%;
+    }
+    .mob_experiance_title {
+        font-size: 23px;
+        margin-top: 70px;
+        color: white;
+        margin-left: 18px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .mob_experiance_blank {
+        width: 90px;
+        height: 2px;
+        background-color:#616161ef;
+        margin-left: 60px;
+        margin-top: 7px;
+        margin-bottom: 20px;
+    }
+    .mob_experiance_date {
+        color: rgba(89, 90, 90, 0.808);
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .mob_experiance_filed {
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+        margin-top: 3px;
+    }
+    .mob_experiance_project {
+        margin-left: 30px;
+        margin-top: 3px; 
+        font-size: 18px;
+    }
+    .Education-Experience_title {
+        font-size: 23px;
+        margin-top: 70px;
+        color: white;
+        letter-spacing: 1px;
+        margin-left: 1px;
+        font-weight: bold;
+    }
+    .Education-Experience_blank {
+        width: 50px;
+        height: 2px;
+        background-color: #616161ef;
+        margin-left: 59px;
+        margin-top: 4px;
+    }
+    .Education-Experience_date {
+        color: rgba(89, 90, 90, 0.808);
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .Education-Experience_filed {
+        font-size: 20px;
+        margin-left: 10px;
+        font-weight: 500;
+        color: white;
+        margin-top: 3px;
+    }
+    .Education-Experience_project {
+        margin-left: 20px;
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    .mob_skill {
+        padding-top: 15px;
+        width: auto;
+        height: 69rem;
+        background-color: #0189FF;
+        margin-top: 50px;
+    }
+    .mob_video {
+        margin-left: 30px;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(136, 132, 132, 0.685);
+        margin-top: 70px;
+        position: relative;
+        z-index: 1;
+    }
+    .mob_box {
+        width: 19rem;
+        height: 10rem;
+        background-color: white;
+        margin-top: 100px;
+        margin-left: 30px;
+        border: 0.5px solid #1a5da091;
+        box-shadow: 1px 0px 6px #0189FF; 
+        border-radius: 5px;
+    }
+    .mob_box_2 {
+        width: 19rem;
+        height: 10rem;
+        background-color:#0189FF;
+        margin-top: 30px;
+        margin-left: 30px;
+        border: 0.5px solid #1a5da091;
+        box-shadow: 1px 0px 6px #a1a3a5; 
+        border-radius: 5px;
+    }
+    .mob_box_3 {
+         width: 19rem;
+        height: 10rem;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 30px;
+        border: 0.5px solid #1a5da091;
+        box-shadow: 1px 0px 6px #0189FF; 
+        border-radius: 5px;
+    }
+    .sub_description {
+        margin-left: 6px;
+    }
+    .Title {
+        margin-left: 105px;
+        font-size: 20px;
+        color: #898a8a;
+        margin-top: -65px;
+    }
+    .mob_footer {
+        width: auto;
+        height: 400px;
+        background-color: #101010;
+        margin-top: 150px;
+    }
+    .mob_Subscribe {
+        width: 300px;  
+        height: 80px;   
+        background-color: #f5f5f5; 
+        margin-left: 34px;    
+        border-radius: 20px;
+        margin-top: -24rem;  
+        border: 1px solid #0189FF;
+        display: flex;
+        box-shadow: 0 0 9.7px #fff; 
+    }
+    .mob_input {
+        width: 140px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-left: 15px; 
+        border:none;  
+    }
+    .mob_social {
+        margin-top: 10px;
+    }
+    .mob_name {
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .mob_github-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 30px;
+    }
+    .footer_description {
+        font-size: 13px;
+        width: 15rem;
+        margin-left: 30px;
+        margin-top: 8px;
+        color: rgba(255, 255, 255, 0.726); 
+    }
+    .mob_upwork_title {
+        font-size: 13px;
+        color: white;
+        margin-left: 260px;
+        margin-top: -139px;
+        font-weight: bold;
+    }
+    .Contact-me {
+        display: flex;
+        margin-left: 10px;
+    }
+    .footer_blank {
+        width: 8rem;
+        height: 0.4px;
+        background-color: rgba(255, 255, 255, 0.733);
+        margin-top: 100px;
+        margin-left: 125px;
+        border-radius: 3px;
+    }
+    .footer_copyright {
+        margin-left: 95px;
+        margin-top: 10px;
+        color: rgba(255, 255, 255, 0.61);
+        font-size: 11px; 
+    }
+    
+    }
+
+

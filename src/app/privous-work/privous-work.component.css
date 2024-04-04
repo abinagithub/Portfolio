@@ -5,17 +5,18 @@
 }
 video {
     border-radius: 10px;
-    width: 65rem;
+    width: 70rem;
     height: auto;
     box-shadow: 0 4px 6px rgba(136, 132, 132, 0.685);
 }
 .Listing-design {
     display: flex;
+    margin-bottom: 18rem;
 }
 .listing-1 {
   width: auto;
-  height: 200px;
-  margin-left: 50px;
+  height: 190px;
+  margin-left: 10px;
   margin-top: 185px;
 }
 .listing-2 {
@@ -28,20 +29,20 @@ video {
 }
 .listing-3 {
     width: auto;
-    height: 200px;
+    height: 190px;
     margin-left: 20px;
-    margin-top: 185px;
+    margin-top: 198px;
 }
-#Subscribe {
-    width: 40rem;   
+#subscribeSection {
+    width: 42rem;   
     height: 5rem;   
     background-color: #f5f5f5; 
-    margin-left: 21rem;    
+    margin-left: 34rem;    
     border-radius: 20px; 
-    margin-top: -21.5rem;
+    margin-top: -340px;
     border: 1px solid #0189FF;
     display: flex;
-    box-shadow: 0 0 6.5px #fff;
+    box-shadow: 0 0 9.7px #fff;
 }
 .footer {
     width: auto;
@@ -72,7 +73,8 @@ video {
     height: 40px;
     margin-left: 40px;
     margin-top: 17px;
-    padding-left: 15px;   
+    padding-left: 15px; 
+    border: none;  
 }
 .github-footer {
     width: 20px;
@@ -109,11 +111,6 @@ a {
 .Contact-me {
     display: flex;
 }
-.name {
-    margin-top: 30px;
-    margin-left: 70px;
-    font-size: 30px;
-}
 button {
     background: #0189FF;
     padding:9px 20px;
@@ -126,4 +123,33 @@ button:hover{
     cursor: pointer;
     background-color: #0188ff86;
 }
-  
+
+.Work {
+    margin-left: 12.5rem;
+}
+
+.name {
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+.footer {
+    width: auto;
+    height: 400px;
+    background-color: #101010;
+    margin-top: 200px;
+}
+.Footer-element {
+    margin-top: -27.5rem;
+}
+.footer_name {
+    margin-left: 50px;
+}
+.footer_link {
+    margin-left: 16rem;
+    margin-top: -10.3rem;
+}
+.footer-contact {
+    margin-left: 20rem;
+    margin-top: -6rem;
+}

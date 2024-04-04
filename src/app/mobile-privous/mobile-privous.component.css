@@ -1,0 +1,303 @@
+
+
+@media screen and (max-width: 380px) {
+    video {
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .Mobile-video {
+        padding-left: 27px;
+    }
+    .listing-1 {
+        width: auto;
+        height: 180px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .listing-2 {
+          width: auto;
+          height: 180px;
+          margin-top: 20px;
+          margin-left: 18px;
+          border-radius: 40px;
+          box-shadow: 0px 0px 10px #0189FF;
+    }
+    .listing-3 {
+          width: auto;
+          height: 180px;
+          margin-left: 40px;
+          margin-top: 20px;
+    }
+    .mob_footer {
+        width: auto;
+        height: 390px;
+        background-color: #101010;
+        margin-top: 150px;
+    }
+    .mob_Subscribe {
+        width: 300px;  
+        height: 80px;   
+        background-color: #f5f5f5; 
+        margin-left: 34px;    
+        border-radius: 20px;
+        margin-top: -24rem;  
+        border: 1px solid #0189FF;
+        display: flex;
+        box-shadow: 0 0 9.7px #fff; 
+    }
+    .mob_input {
+        width: 160px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-left: 15px;   
+    }
+    .mob_name {
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    .mob_social {
+        margin-top: 10px;
+    }
+    .mob_github-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 30px;
+    }
+    .mob_element {
+        margin-top: -27rem;
+    }
+    .github-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 55px;
+    }
+    .telegram-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .instagram-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .linkdn-footer {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .footer_description {
+        font-size: 13px;
+        width: 15rem;
+        margin-left: 30px;
+        margin-top: 8px;
+        color: rgba(255, 255, 255, 0.726); 
+    }
+    .mob_upwork_title {
+        font-size: 13px;
+        color: white;
+        margin-left: 260px;
+        margin-top: -139px;
+        font-weight: bold;
+    }
+    .Contact-me {
+        display: flex;
+        margin-left: 10px;
+    }
+    .footer_blank {
+        width: 8rem;
+        height: 0.4px;
+        background-color: rgba(255, 255, 255, 0.733);
+        margin-top: 100px;
+        margin-left: 125px;
+        border-radius: 3px;
+    }
+    .footer_copyright {
+        margin-left: 83px;
+        margin-top: 10px;
+        color: rgba(255, 255, 255, 0.61);
+        font-size: 12px; 
+    }
+    .video_field {
+        color: rgb(109, 108, 108);
+        margin-left: 115px;
+        margin-top: 70px;
+        font-size: 20px;
+    }
+    .listing-header {
+        font-family:'Times New Roman', Times, serif;
+        margin-top: 150px;
+        margin-left: 65px;
+        font-size: 27px;
+        font-weight: bold; 
+    }
+    .header_underline {
+        width: 210px;
+        height: 5px;
+        background-color: #0189FF;
+        margin-top: -8px;
+        margin-left: 76.5px;
+        border-radius: 3px;
+    }
+}
+
+
+@media only screen and (min-width: 365px) {
+   .header {
+    margin-left: 20px;
+   }
+   .Mobile-video {
+    margin-left: 30px;
+    margin-top: 5px;
+   }
+   .Mobile-text {
+    margin-left: 20px;
+   }
+   .Listing-design {
+    margin-left: 9px;
+   }
+   .listing-1 {
+    width: auto;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.listing-2 {
+      width: auto;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 18px;
+      border-radius: 40px;
+      box-shadow: 0px 0px 10px #0189FF;
+}
+.listing-3 {
+      width: auto;
+      height: 200px;
+      margin-left: 40px;
+      margin-top: 20px;
+}
+video {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+.mob_footer {
+    width: auto;
+    height: 400px;
+    background-color: #101010;
+    margin-top: 150px;
+}
+.mob_Subscribe {
+    width: 340px;  
+    height: 80px;   
+    background-color: #f5f5f5; 
+    margin-left: 34px;    
+    border-radius: 20px;
+    margin-top: -24rem;  
+    border: 1px solid #0189FF;
+    display: flex;
+    box-shadow: 0 0 9.7px #fff; 
+}
+.mob_input {
+    width: 187px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 15px;   
+    border: none;
+}
+.mob_name {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.mob_social {
+    margin-top: 10px;
+}
+.mob_github-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+.footer_description {
+    font-size: 15px;
+    width: 15rem;
+    margin-left: 30px;
+    margin-top: 8px;
+    color: rgba(255, 255, 255, 0.726); 
+}
+.mob_upwork_title {
+    font-size: 18px;
+    color: white;
+    margin-left: 252px;
+    margin-top: -149px;
+    font-weight: bold;
+}
+.Contact-me {
+    display: flex;
+    margin-left: 20px;
+}
+.footer_blank {
+    width: 11rem;
+    height: 0.4px;
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-top: 110px;
+    margin-left: 120px;
+    border-radius: 3px;
+}
+.footer_copyright {
+    margin-left: 90px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 15px; 
+}
+.mob_element {
+    margin-top: -27.5rem;
+}  
+.github-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 55px;
+}
+.telegram-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.instagram-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.linkdn-footer {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+} 
+.video_field {
+    color: rgb(109, 108, 108);
+    margin-left: 140px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.listing-header {
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 27px;
+    font-weight: bold;
+}
+.header_underline {
+    width: 210px;
+    height: 5px;
+    background-color: #0189FF;
+    margin-top: -8px;
+    margin-left: 103.5px;
+    border-radius: 3px;
+}
+}
+
+
