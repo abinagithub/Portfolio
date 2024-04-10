@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { trigger, transition, animate, style } from '@angular/animations';
 
 @Component({
   selector: 'app-privous-work',
   templateUrl: './privous-work.component.html',
-  styleUrl: './privous-work.component.css'
+  styleUrl: './privous-work.component.css',
 })
 export class PrivousWorkComponent {
   githubImage : string = './assets/Img/github.png'
@@ -19,4 +20,7 @@ export class PrivousWorkComponent {
   img4 : string = './assets/Img/img4.png'
   project : string = './assets/video/project.mp4'
   figma : string = './assets/video/figma.mp4'
+  home_video : string = './assets/video/Figma_design.mp4'
+
+  
 }

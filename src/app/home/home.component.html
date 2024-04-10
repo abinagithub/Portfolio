@@ -3,20 +3,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Eagle+Lake&family=Mystery+Quest&family=Ojuju:wght@200..800&family=Pompiere&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
-      <div class="describtion">
-        <div class="social_media_contact">
-            <img [src]="github_new" alt="" class="github"><br>
-            <img [src]="telegramImage" alt="" class="telegram"><br>
-            <img [src]="instaImage" alt="" class="insta"><br>
-            <img [src]="linkdnImage" alt="" class="linkdn"><br>
+  <div class="hero">
+        <div class="describtion" >
+          <div class="social_media_contact" @slide_down>
+              <a href="https://github.com/abinagithub"><img [src]="github_new" alt="" class="github"></a><br>
+              <a href="https://web.telegram.org/a/#897951842"><img [src]="telegramImage" alt="" class="telegram"></a><br>
+              <img [src]="instaImage" alt="" class="insta"><br>
+              <a href="https://www.linkedin.com/in/abenezer-abrham-5a018321a/"><img [src]="linkdnImage" alt="" class="linkdn"></a><br>
+          </div>
+          <div>
+            <div class="SubTitle">Hello Mate<img [src]="ByeImage" alt="" class="ByeImage"> <br>
+              <span style="margin-top: 10px;">I'm Abenezer Abrham</span><br><span>a<span style="color: #0189FF; margin-left: 10px;">web developer.</span> </span>
+              <p style="font-size: 16px;color: rgb(164, 165, 165);margin-top: 5px;">Hi, I'm Abenezer Abrham a freelance on web developer and designer from Addis Ababa. <br>I help brands turn their ideas into high quality products. </p>
+              <a href="https://www.upwork.com/freelancers/~015486a53d6d3eb69a"><div class="btn">Let's Talk</div></a>
+            </div>
+          </div>
         </div>
-        <div class="SubTitle">Hello Mate<img [src]="ByeImage" alt="" class="ByeImage"> <br>
-        <span style="margin-top: 10px;">I'm Abenezer Abrham</span><br><span>a<span style="color: #0189FF; margin-left: 10px;">web developer.</span> </span>
-        <p style="font-size: 16px;color: rgb(164, 165, 165);margin-top: 5px;">Hi, I'm Abenezer Abrham a freelance on web developer and designer from Addis Ababa. <br>I help brands turn their ideas into high quality products. </p>
-        <div class="btn">Let's Talk</div>
-        </div>
+      <div class="profile" >
+        <img [src]="abenezer" alt="" class="profile_pic" @slide_up>
+      </div>
     </div>
-     <video autoplay loop muted [src]="video"></video>
+      <video autoplay loop muted [src]="mobile"></video>
     <div>
         <p style="font-family:'Times New Roman', Times, serif;margin-top: 90px;margin-left: 45rem;font-size: 30px;font-weight: bold;">I proved the best servies on</p>
         <div class="underline"></div>
@@ -45,8 +52,7 @@
           <p style="color: rgba(168, 169, 170, 0.808);margin-left: 30px;margin-top: 20px;">2023 - <span>Present</span></p>
           <p style="font-size: 20px;margin-left: 30px;font-weight: 500;color: white;margin-top: 3px;">Full-stack Developer</p>
           <p style="margin-left: 30px;margin-top: 3px;">- School System</p>
-    
-        </div>
+      </div>
         <div class="Eduction">
             <div class="Work-Experience">
                 <div style="font-size: 25px;margin-top: 80px;color: white;margin-left: 20px;letter-spacing: 1px; font-weight: bold;">Eduction</div>
@@ -125,16 +131,16 @@
     <div class="Footer-element">
       <div id="subscribeSection">
         <input type="text" class="input" placeholder="Enter Your Email Addrees">
-        <button style="width: 6rem;height: 40px;border-radius: 20px;margin-left: 10px;margin-top: 20px;"><p style="font-size: 15px;margin-left: -5px;margin-top: -3px;">Subscribe</p></button>
+        <a routerLink="/subscribe"><button style="width: 6rem;height: 40px;border-radius: 20px;margin-left: 10px;"><p style="font-size: 15px;margin-left: -5px;margin-top: -3px;">Subscribe</p></button></a>
       </div>
       <div class="footer_name">
         <div class="name"><span style="color: white;font-weight: bold;">Abenezer</span> <span style="color: #0189FF;font-weight: bold;margin-left: 6px;">Abrham</span></div>
         <p style="font-size: 20px;margin-left: 70px;margin-top: 8px;color: rgba(255, 255, 255, 0.726);">Hi, I'm Abenezer Abrham a freelance on web developer <br> and designer from Addis Ababa.I help brands <br> turn their ideas into high quality products.</p>
         <div class="social">
-          <img [src]="githubImage" alt="" class="github-footer">
-          <img [src]="telegramImage" alt="" class="telegram-footer">
-          <img [src]="instaImage" alt="" class="instagram-footer">
-          <img [src]="linkdnImage" alt="" class="linkdn-footer"> 
+          <a href="https://github.com/abinagithub"><img [src]="githubImage" alt="" class="github-footer"></a>
+          <a href="https://web.telegram.org/a/#897951842"><img [src]="telegramImage" alt="" class="telegram-footer"></a>
+          <a href=""><img [src]="instaImage" alt="" class="instagram-footer"></a>
+          <a href="https://www.linkedin.com/in/abenezer-abrham-5a018321a/"><img [src]="linkdnImage" alt="" class="linkdn-footer"></a> 
         </div>
       </div>
       <div class="footer_link">
@@ -162,6 +168,7 @@
 
 
 <!-- mobile screen design. -->
+
 <div class="show-on-mobile">
       <p class="Title"><span style="color: #0189FF;">A</span>benezer <span style="color: #0189FF;">A</span>brham</p>
     <main class="Text-animation">
@@ -176,8 +183,8 @@
       <p class="Mob_description"><span style="margin-left: 15px;">Hi, I'm Abenezer Abrham a freelance on web</span><br><span style="margin-left: 24px;">developer and designer from Addis Ababa.</span><br><span style="margin-left: 50px;">I help brands turn their ideas into</span><br><span style="margin-left: 82px;"> high quality products.</span><br><span></span></p>
       <div class="mob_button">Let's Talk</div>
     </div>
-    <img src="" alt="" class="profile_pic"> 
-  <marquee direction="right" class="logo">
+    <img [src]="abenezer_pic" alt="" class="mob_profile" @slide_down> 
+    <marquee direction="right" class="logo">
     <img [src]="expressPath" alt="" class="mob_express">
     <img [src]="nodePath" alt="" class="mob_node">
     <img [src]="reactPath" alt="" class="mob_react">    
@@ -276,17 +283,13 @@
   </div>
   <div class="mob_footer"></div>
   <div class="mob_element">
-    <div class="mob_Subscribe">
-      <input type="text" class="mob_input" placeholder="Enter Email Addrees">
-      <div style="width: 90px;height: 45px;background-color: #0189FF;margin-top: 20px;border-radius: 30px;margin-left: 10px;"><p style="margin-top: 14px;margin-left: 10px;color: white;font-weight: bold;font-size: 16px;">Subscribe</p></div>
-     </div>
       <div class="mob_name"><span style="color: white;font-weight: bold;">Abenezer</span> <span style="color: #0189FF;font-weight: bold;margin-left: 6px;">Abrham</span></div>
       <p class="footer_description">Hi, I'm Abenezer Abrham a <br> freelance on web developer and <br> designer from Addis Ababa.I <br> help brands turn their ideas into <br> high quality products.</p>
       <div class="mob_social">
-        <img [src]="githubImage" alt="" class="mob_github-footer">
-        <img [src]="telegramImage" alt="" class="telegram-footer">
-        <img [src]="instaImage" alt="" class="instagram-footer">
-        <img [src]="linkdnImage" alt="" class="linkdn-footer"> 
+        <a href="https://github.com/abinagithub"><img [src]="githubImage" alt="" class="mob_github-footer"></a>
+        <a href="https://web.telegram.org/a/#897951842"><img [src]="telegramImage" alt="" class="telegram-footer"></a>
+        <a href=""><img [src]="instaImage" alt="" class="instagram-footer"></a>
+        <a href="https://www.linkedin.com/in/abenezer-abrham-5a018321a/"><img [src]="linkdnImage" alt="" class="linkdn-footer"></a>
       </div>
         <p class="mob_upwork_title">Contact Me<span></span></p>
         <div class="Contact-me">

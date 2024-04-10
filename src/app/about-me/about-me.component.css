@@ -1,3 +1,30 @@
+.about {
+    padding-top: 20px;
+}
+.about_text {
+    margin-top: 18rem;
+    margin-left: 100px;
+}
+.text_header {
+    font-size: 50px;
+    font-weight: bold; 
+    font-weight: lighter;
+}
+.text_subtitle {
+    font-size: 35px;
+    width: 60rem;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text_description {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 102rem;
+    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #subscribeSection {
     width: 40rem;   
     height: 5rem;   
@@ -38,7 +65,8 @@
     height: 40px;
     margin-left: 40px;
     margin-top: 17px;
-    padding-left: 15px;   
+    padding-left: 15px;  
+    border: none; 
 }
 .github-footer {
     width: 20px;
@@ -78,9 +106,8 @@ a {
 .About-me {
   display: flex;
 }
-.text {
-    margin-top: 10px;
-    font-family: "Truculenta", sans-serif;
+.flex {
+ display: flex;   
 }
 button {
     background: #0189FF;
@@ -130,4 +157,9 @@ button:hover{
     display: flex;
     box-shadow: 0 0 9.7px #fff;
 }
-  
+.profile {
+    width: 36rem;
+    height: 40rem;
+    margin-top: 150px;
+    margin-left: 80px;
+} 
